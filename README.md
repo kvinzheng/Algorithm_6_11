@@ -23,3 +23,10 @@ arr = [
   `b`
 ];
 ```
+#randomCase
+```javascript
+
+Math.floor(Math.random() * 3)
+
+it will only generate number from 0 to 2 because Math.floor round down, Math.random() generaates 0(inclusively) to 1(exclusively)
+```
