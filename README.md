@@ -11,7 +11,7 @@ a = {"xyz", "live", "strong"};
 
 ```
 
-#permutation
+# permutation
 ```javascript
 
 arr = [
@@ -23,7 +23,8 @@ arr = [
   `b`
 ];
 ```
-#randomCase
+
+# randomCase
 ```javascript
 
 Math.floor(Math.random() * 3)
