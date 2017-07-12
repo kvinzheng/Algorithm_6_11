@@ -3,7 +3,7 @@ function longestPalindrome(s) {
   for (let i = 0; i < s.length; i++) {
     for (let j = i; j < s.length; j++) {
       let current = s.substring(i, j + 1);
-      console.log( current)
+      console.log('curent===', current);
       if (current.split('').reverse().join('') === current) {
         maxLength = Math.max(maxLength, current.length);
       }
@@ -13,4 +13,3 @@ function longestPalindrome(s) {
   return maxLength;
 }
 console.log(longestPalindrome("aab" ));
-// console.log(longestPalindrome("zzbaabcd" ));

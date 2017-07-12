@@ -41,3 +41,9 @@ console.log(newstr);  // oranges are round, and oranges are juicy.
 
 `repalce will make a new copy!`
 ```
+
+#replace
+
+```javascript
+let a = string.replace(/[^a-zA-Z0-9]/g,'') //replace all the characthat that is not from a-z. 
+```
