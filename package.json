@@ -1,0 +1,23 @@
+{
+  "name": "Algorithm",
+  "version": "1.0.0",
+  "description": "```javascript sort() only sort string sort( (a,b) => a - b) only sort number ```",
+  "main": "JadenCase.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvinzheng/Algorithm_6_11.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kvinzheng/Algorithm_6_11/issues"
+  },
+  "homepage": "https://github.com/kvinzheng/Algorithm_6_11#readme",
+  "dependencies": {
+    "chai": "^4.1.0"
+  }
+}
